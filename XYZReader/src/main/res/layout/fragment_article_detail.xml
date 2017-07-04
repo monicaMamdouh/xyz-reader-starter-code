@@ -96,18 +96,18 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/share_fab"
-        app:pressedTranslationZ="@dimen/fab_press_translation_z"
-        android:stateListAnimator="@animator/fab_rise"
-        android:background="@drawable/add_fab_background"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:src="@drawable/ic_share_variant"
-        android:elevation="@dimen/fab_elevation"
-        android:contentDescription="@string/action_share" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/share_fab"
+            app:pressedTranslationZ="@dimen/fab_press_translation_z"
+            android:stateListAnimator="@animator/fab_rise"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_share_variant"
+            android:elevation="@dimen/fab_elevation"
+            android:contentDescription="@string/action_share" />
+
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
